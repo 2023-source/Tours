@@ -1,0 +1,131 @@
+.backgroundImage2::before
+{   
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background: url("../img/carousel-2.jpg") no-repeat center/cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    height: 80%;
+    width: 100%;
+    
+    
+}
+
+.container-xxl.py-5
+{
+    height: 600px;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    color:orange;
+    font-weight:bold;
+}
+
+.btn.py-3.text-uppercase.px-5.mt-2
+{
+    background-color:orange;
+    color:white;
+    font-weight:bold;
+}
+
+.border.rounded.text-center.p-4 i
+{
+    color: orange;
+}
+
+.service-item {
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .05);
+}
+
+.service-item:hover {
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .08);
+}
+
+.service-item .service-icon {
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+}
+
+.service-item i
+{
+    color: orange;
+    padding: 7px;
+    border: 2px solid orange;
+}
+
+
+
+
+.service-item:hover i {
+    background-color: orange ;
+    color: white;
+}
+
+@media(max-width:992px)
+{
+    .col-lg-6.col-md-3.text-end img, .col-lg-6.col-md-3.text-start img
+    {
+        max-width: 100%;
+    } 
+    .backgroundImage2
+    {
+        height: 70%;
+    }
+
+    .container-xxl.py-5
+    {
+        height: 640px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .col-lg-6.col-md-3.col-sm-3.text-end img
+    {
+        max-width: 100%;
+        width: 100%;
+        
+
+    } 
+    .col-lg-6.col-md-3.col-sm-3.text-start img
+    {
+        max-width: 100%;
+        width: 100%;
+        
+    }
+}
+
+@media(max-width:576px)
+{
+    .col-lg-6.col-md-3.col-sm-3.text-end img, .col-lg-6.col-md-3.col-sm-3.text-start img
+    {
+        display: none;
+        
+
+    } 
+    
+    .container-xxl.py-5
+    {
+        height: 844px;
+    }
+}
+
+@media(max-width:433px)
+{
+    .container-xxl.py-5
+    {
+        height: 900px;
+    }
+}

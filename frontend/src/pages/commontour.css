@@ -1,0 +1,28 @@
+.common_section::before
+{   
+
+    position: absolute;
+    content: "";
+    z-index: -1;
+    display: flex;
+    background: url("../img/carousel-2.jpg") no-repeat center/cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    height: 80%;
+    width: 100%;
+    
+}
+
+.hello3
+{
+    height:700px;
+}
+
+@media (max-width:576px)
+{
+    .hello3
+    {
+        height: 586px;
+    }
+}
+

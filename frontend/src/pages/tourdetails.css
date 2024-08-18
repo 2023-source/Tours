@@ -1,0 +1,87 @@
+/* Styles for ToursDetails component */
+
+/* Container for ToursDetails */
+.container {
+    padding: 2rem;
+  }
+  
+  /* Tour image */
+.col-md-6 img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border: 3px solid rgba(230, 231, 235);
+}
+  
+/* Tour details */
+.tour_content {
+  border: 3px solid rgba(230, 231, 235);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.tour_content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.tour_content .d-flex.align-items-center.gap-5 {
+  margin-top: 1rem;
+}
+
+.tour_content .d-flex.align-items-center.gap-5 span {
+  font-size: 0.9rem;
+}
+
+.tour_content .d-flex.align-items-center.gap-5 i {
+  color: orange;
+  font-size: 1rem;
+}
+  
+.tour_content .d-flex.align-items-center.gap-4 {
+  margin-top: 1rem;
+}
+
+.tour_content .d-flex.align-items-center.gap-4 span {
+  font-size: 0.9rem;
+}
+
+.tour_content .d-flex.align-items-center.gap-4 i {
+  color: orange;
+  font-size: 1rem;
+}
+
+.tour_content h5 {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.col-md-6.text_4
+{
+    width: 50%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .col-md-6.text_4
+  {
+    width: 100%;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 576px)
+{
+    .col-md-6 img
+    {
+       max-height: 50%;
+       max-width: 94%;
+       margin-left: 20px;
+    }
+}

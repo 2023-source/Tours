@@ -1,0 +1,52 @@
+.main_nav
+{
+    margin-bottom: 1px;
+    background-color:white;
+    border:2px solid yellow;
+}
+
+.nav_brand
+{
+    font-size:30px;
+    font-weight:bold;
+    padding:10px;
+}
+
+.nav_link
+{
+    font-weight:bold;
+}
+
+.nav_link1
+{
+    font-weight:bold;
+    background-color: orange;
+    border-radius: 11%;
+    color: white;
+}
+
+.nav_link2
+{
+    background-color: black;
+    border-radius: 11%;
+    color: white;
+}
+
+.nav_link2:hover
+{
+    color: white;
+}
+
+.nav_link1:hover
+{
+    color: white;
+}
+
+.nav_link:hover
+{
+    color: orange;
+}
+
+
+
+
